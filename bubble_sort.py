@@ -1,12 +1,12 @@
-def bubble_sort(n_list):
-    for num in range(len(n_list) - 1, 0, -1):
+def bubble_sort(l):
+    for num in range(len(l) - 1, 0, -1):
         for i in range(num):
-            if n_list[i] > n_list[i + 1]:
-                temp = n_list[i]
-                n_list[i] = n_list[i + 1]
-                n_list[i + 1] = temp
+            if l[i] > l[i + 1]:
+                temp = l[i]
+                l[i] = l[i + 1]
+                l[i + 1] = temp
 
 
-n_list = [14, 46, 43, 27, 57, 41, 45, 21, 70]
-bubble_sort(n_list)
-print(n_list)
+my_list = [14, 46, 43, 27, 57, 41, 45, 21, 70]
+bubble_sort(my_list)
+print(my_list)
