@@ -1,12 +1,11 @@
 class Queue:
 
     def __init__(self):
-      self.queue = list()
-
+        self.queue = list()
 
     def add_toq(self, data_val):
 
-# Insert method to add element
+        # Insert method to add element
         if data_val not in self.queue:
             self.queue.insert(0, data_val)
             return True

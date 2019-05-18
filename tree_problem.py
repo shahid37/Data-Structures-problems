@@ -1,7 +1,6 @@
 class Node:
 
     def __init__(self, data):
-
         self.left = None
         self.right = None
         self.data = data
@@ -12,8 +11,8 @@ class Node:
 
 root = Node(10)
 
-
 root.print_tree()
+
 
 class Node:
 
@@ -38,7 +37,7 @@ class Node:
         else:
             self.data = data
 
-# Print the tree
+    # Print the tree
     def print_tree(self):
         if self.left:
             self.left.print_tree()

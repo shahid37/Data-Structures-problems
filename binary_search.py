@@ -18,4 +18,3 @@ print(binary_search([1, 2, 3, 5, 8], 0))
 print(binary_search([1, 2, 3, 5, 8], 5))
 print(binary_search([1, 2, 3, 5, 8], 2))
 print(binary_search([1, 2, 3, 5, 8], 9))
-
