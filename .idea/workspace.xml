@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8823bba-0b3d-41c4-9dec-b40e5700362b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/recursion_of_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convert_an_integer_to_a_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_an_integer_to_a_string.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +22,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convert_an_integer_to_a_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recursion_of_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/factorial.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -68,6 +82,8 @@
         <option value="$PROJECT_DIR$/bubble_sort.py" />
         <option value="$PROJECT_DIR$/calculate_sum_of_list.py" />
         <option value="$PROJECT_DIR$/convert_an_integer_to_a_string.py" />
+        <option value="$PROJECT_DIR$/recursion_of_list.py" />
+        <option value="$PROJECT_DIR$/factorial.py" />
       </list>
     </option>
   </component>
@@ -113,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.convert_an_integer_to_a_string">
+  <component name="RunManager" selected="Python.factorial">
     <configuration name="Heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,7 +205,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="recursion_of_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +226,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion_of_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.factorial" />
+        <item itemvalue="Python.recursion_of_list" />
         <item itemvalue="Python.convert_an_integer_to_a_string" />
         <item itemvalue="Python.calculate_sum_of_list" />
         <item itemvalue="Python.Heap" />
-        <item itemvalue="Python.queue" />
-        <item itemvalue="Python.dictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +277,14 @@
       <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33046472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33046472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39931154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32874355" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32874355" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
@@ -359,6 +375,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/convert_an_integer_to_a_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculate_sum_of_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -366,12 +389,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convert_an_integer_to_a_string.py">
+    <entry file="file://$PROJECT_DIR$/recursion_of_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="45">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factorial.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
